@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Article Listing | devChallenges.io</title>
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <meta name="description" content="Simple Article Listing" />
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Nunito Sans", sans-serif;
+      }
+
+      body {
+        min-height: 100vh;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+      }
+
+      h1 {
+        text-align: center;
+        text-wrap: balance;
+        font-size: 2rem;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+    </style>
+    <script type="module" src="./dist/blog-card.js"></script>
+  </head>
+  <body>
+    <h1>We release interesting articles about technology</h1>
+
+    <img src="resources/Seperator.svg" alt="separator" aria-hidden="true" />
+
+    <blog-card
+      article-title="Unlocking the Power of Cloud Computing: A Guide to Scalable Solutions"
+      publish-date="November 12, 2024"
+      image-url="resources/photo_1.png"
+    ></blog-card>
+    <blog-card
+      article-title="The Future of AI: How Machine Learning is Revolutionizing Industries"
+      publish-date="November 12, 2024"
+      image-url="resources/photo_2.png"
+    ></blog-card>
+    <blog-card
+      article-title="The Impact of 5G on Business: How Faster Networks are Transforming the Way We Work"
+      publish-date="November 12, 2024"
+      image-url="resources/photo_3.png"
+    ></blog-card>
+
+    <div class="author-info">
+      Coded by
+      <a
+        href="https://github.com/NickEsColR"
+        target="_blank"
+        title="go to github"
+        >NickEsColR</a
+      >
+      | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+  </body>
+</html>
