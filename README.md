@@ -4,7 +4,7 @@ This implementation features a reusable Web Component for article cards that can
 
 Based on the solution for the [Simple Article Listing](https://devchallenges.io/challenge/simple-article-listing) challenge from [devChallenges.io](http://devchallenges.io).
 
-## [Demo](https://simple-article-listing.vercel.app/) | [Challenge](https://devchallenges.io/challenge/simple-article-listing)
+## [Demo](https://articlecardwebcomponent-nickescolr.netlify.app/) | [Challenge](https://devchallenges.io/challenge/simple-article-listing)
 
 ## Table of Contents
 
